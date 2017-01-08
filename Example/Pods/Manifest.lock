@@ -1,0 +1,16 @@
+PODS:
+  - NotificationBar (0.0.1)
+
+DEPENDENCIES:
+  - NotificationBar (from `../`)
+
+EXTERNAL SOURCES:
+  NotificationBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NotificationBar: 2cb6cf130828ba45b4b401d5e5f26aebd26f1c2d
+
+PODFILE CHECKSUM: dbd2a9607212fcee3557295ce55336e027bb832d
+
+COCOAPODS: 1.2.0.beta.3
