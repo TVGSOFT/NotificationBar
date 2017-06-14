@@ -222,6 +222,11 @@ class NotificationView: UIView {
         content.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         addSubview(content)
         
+        layer.shadowColor = UIColor.black.cgColor
+        layer.shadowOffset = CGSize(width: 1, height: 1)
+        layer.shadowRadius = 7
+        layer.shadowOpacity = 0.5
+        
         replyTextField.delegate = self
         
         appImageView.layer.cornerRadius = 5.0
