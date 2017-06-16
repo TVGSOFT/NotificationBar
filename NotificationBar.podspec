@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.name                  = "NotificationBar"
   s.summary               = "Notification UI with alert and banner style. User can reply a message inside notification."
   s.requires_arc          = true
-  s.version               = “0.0.2”
+  s.version               = "0.0.2"
   s.license               = { :type => "MIT", :file => "LICENSE" }
   s.author                = { "TVG" => "tvg@gmail.com" }
   s.homepage              = "https://github.com/TVGSoft/NotificationBar"
